@@ -3,9 +3,13 @@ module go.opentelemetry.io/otel/exporters/zipkin
 go 1.15
 
 require (
-	github.com/google/go-cmp v0.5.6
-	github.com/openzipkin/zipkin-go v0.2.5
-	github.com/stretchr/testify v1.7.0
+	github.com/Shopify/toxiproxy v2.1.4+incompatible // indirect
+	github.com/google/go-cmp v0.5.8
+	github.com/gorilla/context v1.1.1 // indirect
+	github.com/openzipkin/zipkin-go v0.4.1
+	github.com/pierrec/lz4 v1.0.2-0.20190131084431-473cd7ce01a1 // indirect
+	github.com/streadway/amqp v0.0.0-20190404075320-75d898a42a94 // indirect
+	github.com/stretchr/testify v1.8.0
 	go.opentelemetry.io/otel v1.0.0-RC2
 	go.opentelemetry.io/otel/sdk v1.0.0-RC2
 	go.opentelemetry.io/otel/trace v1.0.0-RC2
